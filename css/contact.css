@@ -1,0 +1,401 @@
+.form_cotact_page {
+    padding-top: 4.167vw;
+}
+.form_main {
+    width: 85%;
+    border-radius: 20px;
+    border: 0.5px solid #563E98;
+    background: #DEDAF8;
+    margin: 0 auto;
+    margin-top: 3.125vw;
+    padding: 3.125vw;
+}
+
+.form_inner {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4.167vw;
+    row-gap: 1.875vw;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.form_left {
+    width: 46%;
+}
+
+.form_left label{
+    width: 100%;
+    color: #000;
+    font-size: 1.25vw;
+    margin-bottom: 0.521vw;
+}
+
+.form_left input {
+    width: 100%;
+    color: #000;
+    font-size: 1.25vw;
+    height: 3.125vw;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.text_area{
+    width: 100%;
+}
+
+
+.form_left textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    height: 3.125vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.select_form{
+    width: 100%;
+    position: relative;
+}
+
+.select_form select{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 1.25vw;
+    height: 3.125vw;
+    position: relative;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.select_form:after {
+    content: "";
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 0.313vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 1.823vw;
+    top: 3.542vw;
+    z-index: 1;
+}
+
+
+
+/* start normal */
+
+
+.office_location_section {
+    padding: 6.77083vw 0px 5.72917vw 0px;
+    position: relative;
+}
+.office_location_section .office_address_row {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 45px;
+    width: 100%;
+    padding-top: 3.125vw;
+    flex-wrap: wrap;
+}
+.office_location_section .office_address_row .office_address_col {
+    border-radius: 20px;
+    background: var(--theme-white-color);
+    box-shadow: 4px 4px 20px 0px rgba(86, 62, 152, 0.15);
+    padding: 10px;
+    width: 47.6%;
+}
+
+.office_location_section .office_address_row .office_address_inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5625vw;
+    width: 100%;
+    border-radius: 1.04167vw;
+    background: linear-gradient(196deg, rgba(246, 246, 246, 0.28) 18.12%, rgba(198, 191, 242, 0.30) 57.84%, #ADA3ED 101.91%);
+}
+.office_location_section .office_address_row .office_address_img {
+    width: 45%;
+    border-radius: 1.04167vw;
+    overflow: hidden;
+}
+.office_location_section .office_address_row .office_address_img img {
+    width: 100%;
+}
+.office_location_section .office_address_row .office_address_details {
+    width: 55%;
+}
+.office_location_section .office_address_row .office_address_details h4 {
+    color: var(--theme-dark-blue-color);
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 0.83333vw;
+}
+.office_location_section .office_address_row .office_address_details p {
+    color: #64607D;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+    margin: 0px;
+}
+.office_location_section .office_address_row .office_address_details ul {
+    width: 100%;
+    margin: 0px;
+    padding-top: 0.83333vw;
+    padding-left: 0px;
+}
+.office_location_section .office_address_row .office_address_details ul li {
+    display: flex;
+    padding-bottom: 0.9375vw;
+}
+.office_location_section .office_address_row .office_address_details ul li a {
+    display: flex;
+    justify-content: start;
+    gap: 1.04167vw;
+}
+.office_location_section .office_address_row .office_address_details ul li a div {
+    color: #64607D;
+    font-weight: 600;
+    /* line-height: 1.25vw; */
+    letter-spacing: -0.36px;
+    padding-right: 0.78125vw;
+}
+
+.office_location_section .office_address_row .office_address_details ul li a div {
+    flex: 1;
+}
+
+.form_button{
+    width: 100%;
+    text-align: center;
+}
+
+.form_button .bg_button{
+   padding-left: 4.004vw;
+   padding-right: 4.004vw;
+}
+
+/* end normal */
+
+
+@media only screen and (max-width: 1199px){
+
+    .form_left input {
+        font-size: 16px;
+        height: 50px;
+    }
+    .form_main {
+        width: 100%;
+    }
+
+    .form_button .bg_button {
+        padding-left: 5.004vw;
+        padding-right: 5.004vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details h4 {
+        font-size: 2.83333vw;
+    }
+
+
+    .select_form select{
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .form_left textarea{
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .form_left label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .select_form:after {
+        padding: 5px;
+        right: 30px;
+        top: 45px;
+    }
+
+    .office_location_section .office_address_row .office_address_col {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .office_location_section .office_address_row .office_address_inner {
+        gap: 3.5625vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details h4 {
+        margin-bottom: 1.83333vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul {
+        padding-top: 20px;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul li a span{
+        width: 25px;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul li a span img{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+
+    .form_button .bg_button {
+        padding-left: 8.004vw;
+        padding-right: 8.004vw;
+    }
+
+    .form_main {
+        margin-top: 4.125vw;
+        padding: 4.125vw;
+    }
+
+    .office_location_section {
+        padding: 8.77083vw 0px 7.72917vw 0px;
+    }
+
+    .office_location_section .office_address_row .office_address_details h4 {
+        font-size: 2.83333vw;
+        margin-bottom: 2.83333vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul li a {
+        gap: 15px;
+    }
+
+    .form_main {
+        margin-top: 5.125vw;
+        padding: 4.125vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul li {
+        padding-bottom: 1.9375vw;
+    }
+
+    .office_location_section .office_address_row {
+        padding-top: 5.125vw;
+    }
+
+    .office_location_section .office_address_row {
+        gap: 35px;
+    }
+
+    .form_left {
+        width: 47%;
+    }
+
+    .select_form {
+        width: 100%;
+    }
+
+    .text_area {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+
+    .form_left {
+        width: 100%;
+    }
+
+    .form_button .bg_button {
+        padding-left: 10.004vw;
+        padding-right: 10.004vw;
+    }
+
+    .form_cotact_page {
+        padding-top: 12.167vw;
+    }
+
+    .form_main {
+        margin-top: 10.125vw;
+        padding: 6.125vw;
+    }
+
+    .form_inner {
+        row-gap: 5.875vw;
+    }
+
+    .office_location_section {
+        padding: 15.77083vw 0px 15.72917vw 0px;
+    }
+
+    .office_location_section .office_address_row .office_address_inner {
+        flex-wrap: wrap;
+    }
+
+    .office_location_section .office_address_row .office_address_img {
+        border-radius: 15px;
+    }
+
+    .office_location_section .office_address_row .office_address_inner {
+        gap: 6.5625vw;
+    }
+
+    .office_location_section .office_address_row .office_address_details {
+        width: 100%;
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .office_location_section .office_address_row .office_address_details h4 {
+        font-size: 5.83333vw;
+        margin-bottom: 4.83333vw;
+    }
+
+    .office_location_section .office_address_row .office_address_img {
+        width: 100%;
+    }
+
+    .office_location_section .office_address_row .office_address_details ul li {
+        padding-bottom: 3.9375vw;
+    }
+
+    .office_location_section .office_address_row .office_address_inner {
+        border-radius: 15px;
+        background: linear-gradient(196deg, rgba(246, 246, 246, 0.28) 18.12%, rgba(198, 191, 242, 0.30) 57.84%, #ada3ed5e 101.91%);
+    }
+
+    .office_location_section .office_address_row {
+        padding-top: 10.125vw;
+    }
+
+}
+
+

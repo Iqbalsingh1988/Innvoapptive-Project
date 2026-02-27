@@ -1,0 +1,459 @@
+.our_founder_section {
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.founder_sec {
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 0px rgba(86, 62, 152, 0.15);
+    margin-top: 60px;
+}
+.founder_inner {
+    border-radius: 24px;
+    background: linear-gradient(223deg, rgba(246, 246, 246, 0.28) 18.12%, rgba(198, 191, 242, 0.30) 57.84%, #ADA3ED 101.91%);
+    padding: 2.865vw 3.125vw;
+}
+.founder_slider {
+    width: 100%;
+}
+.founder-card {
+    display: flex;
+    align-items: center;
+    gap: 3.385vw;
+}
+.founder-card .image-container {
+    width: 35%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.founder-card .image-container img {
+    width: 100%;
+}
+.founder-card .founder-content {
+    width: 65%;
+}
+
+.founder-card .founder-content p {
+    color: #1C305D;
+    line-height: 1.5;
+}
+
+.founder-card .founder-content p + p{
+    margin-bottom: 0;
+}
+
+.founder-author {
+    padding-top: 2.083vw;
+}
+.founder-author h4 {
+    color: #5C48DA;
+    font-weight: 600;
+    margin: 0px;
+}
+.founder-author p {
+    color: #313744;
+    font-family: Poppins;
+    margin: 0px;
+}
+
+
+.founder_slider .slick-dots li button:hover::before{
+    opacity: inherit;
+    color: #1C305D;
+}
+
+.founder_slider .slick-dots li button:before{
+    font-size: 12px;
+    color: #1D86B5;
+}
+
+.founder_slider .slick-dots li.slick-active button:before{
+        color: #1C305D;
+}
+
+.founder_slider .slick-dots {
+    bottom: 0;
+    width: auto;
+    right: 0;
+}
+.founder_slider.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+.founder_slider .slick-dots li {
+    margin: auto;
+}
+
+.boards-advisors_section {
+    position: relative;
+    width: 100%;
+    padding-top: 8.89583vw;
+}
+.boards-advisors_section .boards-advisors_left {
+    width: 60%;
+}
+.boards-advisors_section .boards-advisors_left .title_two_bottom span {
+    color: var(--theme-sky-blue-color);
+}
+.boards-advisors_section .boards_advisor_row {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1.30208vw;
+    margin-top: 3.64583vw;
+    flex-wrap: wrap;
+}
+.boards-advisors_section .boards_advisor_row .boards_advisor_col {
+    border-radius: 1.04167vw;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(86, 62, 152, 0.15);
+    padding: 0.52083vw;
+    position: relative;
+    width: 23.5%;
+    overflow: hidden;
+}
+.boards-advisors_section .boards_advisor_col .ba_img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.boards-advisors_section .boards_advisor_col .ba_content {
+    padding: 1.04167vw 1.04167vw 0.92083vw 1.04167vw;
+    position: absolute;
+    bottom: -9.479vw;
+    background: #fff;
+    width: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.boards-advisors_section .boards_advisor_row .boards_advisor_col:hover .ba_content{
+    bottom: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.boards-advisors_section .boards_advisor_col .ba_content h2 {
+    color: var(--theme-medium-purple-color);
+    font-weight: 600;
+}
+.boards-advisors_section .boards_advisor_col .ba_content h4 {
+    color: #313744;
+    margin: 0px;
+    font-weight: 400;
+}
+.boards-advisors_section .boards_advisor_col .ba_content p {
+    color: #2A2B2F;
+    font-weight: 400;
+    padding-top: 0.625vw;
+    padding-bottom: 1.04167vw;
+    margin: 0;
+}
+
+.boards-advisors_section .boards_advisor_col .bg_hover {
+    transition:  0.5s ease-in-out;
+    -webkit-transition:  0.5s ease-in-out;
+    -moz-transition:  0.5s ease-in-out;
+    -ms-transition:  0.5s ease-in-out;
+    -o-transition:  0.5s ease-in-out;
+}
+
+.boards-advisors_section .boards_advisor_col .ba_img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.boards-advisors_section .boards_advisor_col .bg_hover .linkedin-icon {
+    position: absolute;
+    top: 1.30208vw;
+    right: 1.30208vw;
+}
+.leadership_team_section {
+    padding-bottom: 6.77083vw;
+}
+
+.boards-advisors_section .boards_advisor_row .boards_advisor_col:hover .linkedin-icon{
+ opacity: 1;
+}
+
+.linkedin-icon {
+    position: absolute;
+    top: 24px;
+    right: 25px;
+    width: 2.552vw;
+    height: 2.552vw;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.linkedin-icon a{
+    display: block;
+}
+
+.linkedin-icon a img{
+    width: 100%;
+}
+
+.founder_slider .slick-dots li.slick-active button{
+    background: #1C305D;
+}
+
+
+.boards-advisors_section .vt_load_more {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1199px) {
+
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col {
+        border-radius: 20px;
+        width: 31.3%;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content {
+        padding: 2.24167vw 2.24167vw 2.22083vw 2.24167vw;
+        bottom: -15.879vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row {
+        gap: 2.30208vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content .fs-24 {
+        font-size: 1.75vw;
+        line-height: 2.658vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content.fs-20 {
+        font-size: 1.642vw;
+        line-height: 1.858vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content .fs-20 {
+        font-size: 1.642vw;
+        line-height: 1.858vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content p {
+        padding-top: 1.625vw;
+        padding-bottom: 2.04167vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col {
+        min-height: 400px;
+    }
+
+    .linkedin-icon {
+        width: 3.552vw;
+        height: 3.552vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row {
+        margin-top: 4.64583vw;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .our_founder_section {
+        padding-top: 30px;
+    }
+
+    .founder-card {
+        align-items: flex-start;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col {
+        width: 48.3%;
+    }
+
+    .boards-advisors_section .boards_advisor_row {
+        margin-top: 5.64583vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content .fs-24 {
+        font-size: 2.45vw;
+        line-height: 3.658vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content .fs-24 {
+        font-size: 2.45vw;
+        line-height: 3.658vw;
+        margin-bottom: 10px;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content .fs-20 {
+        font-size: 2.242vw;
+        line-height: 2.858vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content.fs-20 {
+        font-size: 2.242vw;
+        line-height: 2.858vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content {
+        padding: 2.24167vw 2.24167vw 3.22083vw 2.24167vw;
+        bottom: -22.579vw;
+    }
+
+    .linkedin-icon {
+        width: 4.552vw;
+        height: 4.552vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content p {
+        padding-top: 1.925vw;
+        padding-bottom: 2.54167vw;
+    }
+
+    .boards-advisors_section .boards-advisors_left {
+        width: 80%;
+    }
+
+    .boards-advisors_section .vt_load_more {
+        margin-top: 35px;
+    }
+
+    .leadership_team_section {
+        padding-bottom: 8.77083vw;
+    }
+
+    .founder_sec {
+        margin-top: 40px;
+    }
+
+    .founder-card .founder-content p span{
+        font-size: 16px;
+    }
+
+    .founder-author h4 {
+        font-size: 20px;
+    }
+
+    .founder_sec{
+        padding: 6px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .boards-advisors_section .boards-advisors_left {
+        width: 100%;
+    }
+
+    .founder_inner {
+        padding: 3.865vw 4.125vw;
+    }
+
+    .founder-card {
+        gap: 6.385vw;
+        flex-wrap: wrap;
+    }
+   
+    .founder-card .image-container {
+        width: 100%;
+    }
+
+    .founder-card .founder-content {
+        width: 100%;
+    }
+
+    .founder_inner {
+        padding: 0;
+    }
+
+    .founder-card .founder-content {
+        width: 100%;
+        padding: 30px 20px;
+        padding-top: 0;
+    }
+
+    .founder_slider .slick-dots {
+        bottom: 11px;
+        width: auto;
+        right: 9px;
+    }
+
+    .boards-advisors_section {
+        padding-top: 15.89583vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row {
+        margin-top: 9.64583vw;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col {
+        width: 100%;
+    }
+
+    .boards-advisors_section .boards_advisor_row {
+        gap: 8.30208vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content .fs-24 {
+        font-size: 5.45vw;
+        line-height: 7.658vw;
+        margin-bottom: 12px;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content .fs-20 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content.fs-20 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .boards-advisors_section .boards_advisor_row .boards_advisor_col .ba_content.fs-20 {
+        padding: 4.24167vw 4.24167vw 5.22083vw 4.24167vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content p {
+        padding-top: 6.925vw;
+        padding-bottom: 4.54167vw;
+    }
+
+    .boards-advisors_section .boards_advisor_col .ba_content {
+        bottom: -42.579vw;
+    }
+
+    .linkedin-icon {
+        width: 8.552vw;
+        height: 8.552vw;
+    }
+
+    .boards-advisors_section .vt_load_more {
+        margin-top: 15px;
+    }
+
+    .leadership_team_section {
+        padding-bottom: 15.77083vw;
+    }
+
+}
+
+
+
+

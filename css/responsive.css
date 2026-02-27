@@ -1,0 +1,316 @@
+
+  .theme-btn {
+    font-size: 1.45833vw;
+  }
+  .theme-btn-link {
+    font-size: 1.25vw;
+  }
+  .menu .fs-24 {
+    font-size: 1.25vw;
+  }
+  .mega_menu .fs-28 {
+    font-size: 1.45833vw;
+  }
+  .mega_menu .fs-20 {
+    font-size: 1.04167vw;
+  }
+  .nav_menu .fs-28 {
+    font-size: 1.45833vw;
+  }
+  .nav_details .fs-18 {
+    font-size: 0.9375vw;
+  }
+
+  .header_text .title, .fs-72 {
+    font-size: 3.75vw;
+  }
+  .header_text .fs-24 {
+    font-size: 1.25vw;
+  }
+  .testimonial_slide .fs-20 {
+    font-size: 1.04167vw;
+  }
+
+  .section_heading .fs-56 {
+    font-size: 2.91667vw;
+  }
+
+  .rti_tab_list .fs-28,
+  .rti_item .fs-28 {
+    font-size: 1.45833vw;
+    
+  }
+  .rti_item .fs-28 {
+    font-size: 1.04167vw;
+  }
+
+
+  .process_flow .fs-36 {
+    font-size: 1.875vw;
+  }
+  .process_flow .fs-24 {
+    font-size: 1.25vw;
+  }
+
+  .blog_area .fs-28 {
+    font-size: 1.45833vw;
+  }
+  .blog_area .fs-20 {
+    font-size: 1.04167vw;
+  }
+
+  .footer .fs-24 {
+    font-size: 1.25vw;
+  }
+  .footer .fs-20 {
+    font-size: 1.04167vw;
+  }
+  .form-field {
+    font-size: 1.04167vw;
+  }
+
+  /* about us */
+  .breadcrumb .fs-24 {
+    font-size: 1.25vw;
+  }
+  .about_area .fs-28 {
+    font-size: 1.45833vw;
+  }
+  .about_area .fs-24 {
+    font-size: 1.25vw;
+  }
+  .about_mission .fs-24 {
+    font-size: 1.25vw;
+  }
+  .accordion_item .fs-28 {
+    font-size: 1.45833vw;
+  }
+  .accordion_item .fs-24 {
+    font-size: 1.25vw;
+  }
+
+  .team_post .fs-20 {
+    font-size: 1.04167vw;
+  }
+  .team_post .fs-24 {
+    font-size: 1.25vw;
+  }
+  .team_post .fs-28 {
+    font-size: 1.45833vw;
+  }
+
+  @media (max-width: 1199px) {
+    .menu .fs-24 {
+        font-size: 14px;
+    }
+    .nav_menu .fs-28 {
+        font-size: 14px;
+    }
+    .nav_details .fs-18 {
+        font-size: 12px;
+    }
+    .theme-btn {
+        font-size: 14px;
+    }
+    .theme-btn-link {
+        font-size: 14px;
+    }
+    .form-field {
+        font-size: 14px;
+    }
+    .header_text .fs-24 {
+        font-size: 16px;
+    }
+    .testimonial_slide .fs-20 {
+        font-size: 14px;
+    }
+    .rti_tab_list .rti_tab_item {
+        font-size: 16px;
+    }
+    .rti_item .fs-28 {
+        font-size: 12px;
+    }
+    .process_flow .fs-36 {
+        font-size: 20px;
+    }
+    .process_flow .fs-24 {
+        font-size: 16px;
+    }
+    .blog_area .fs-28 {
+        font-size: 16px;
+    }
+    .blog_area .theme-btn-link {
+        font-size: 14px;
+    }
+    .blog_area .fs-20 {
+        font-size: 12px;
+    }
+    .footer .fs-24 {
+        font-size: 16px;
+    }
+    .footer .theme-btn.fs-24 {
+        font-size: 14px;
+    }
+    .footer .fs-20 {
+        font-size: 14px;
+    }
+
+    /* about us */
+    .breadcrumb .fs-24 {
+      font-size: 14px;
+    }
+    .about_area .fs-28 {
+      font-size: 18px;
+    }
+    .about_area .fs-24 {
+      font-size: 14px;
+    }
+    .about_mission .fs-24 {
+      font-size: 14px;
+    }
+    .vision_section .accordion_item .fs-28 {
+      font-size: 18px;
+    }
+    .vision_section .accordion_item .fs-24 {
+      font-size: 14px;
+    }
+    .team_post .fs-20 {
+      font-size: 12px;
+    }
+    .team_post .fs-28 {
+      font-size: 14px;
+    }
+    .team_post .fs-24 {
+      font-size: 13px;
+    }
+  }
+
+@media (max-width: 991px) {
+    .theme-btn-link {
+      font-size: 13px;
+    }
+    .form-field {
+      font-size: 12px;
+    }
+    .rti_item .fs-28 {
+        font-size: 13px;
+    }
+    .rti_tab_list .rti_tab_item {
+        font-size: 16px;
+    }
+    .process_flow .fs-36 {
+      font-size: 18px;
+    }
+    .footer .fs-24 {
+      font-size: 14px;
+    }
+    .footer .fs-20 {
+      font-size: 12px;
+    }
+    .footer .theme-btn.fs-24 {
+      font-size: 12px;
+  }
+} 
+  @media (max-width: 767px) {
+    .theme-btn,
+    .theme-btn-link {
+        font-size: 16px;
+      }
+      .menu .fs-24 {
+        font-size: 16px;
+      }
+      .mega_menu .fs-28 {
+        font-size: 16px;
+      }
+      .mega_menu .fs-20 {
+        font-size: 16px;
+      }
+      .nav_menu .fs-28 {
+        font-size: 16px;
+      }
+      .nav_details .fs-18 {
+        font-size: 14px;
+      }
+    
+      .header_text .title,.fs-72 {
+        font-size: 35px;
+      }
+      .header_text .fs-24 {
+        font-size: 16px;
+      }
+      .testimonial_slide .fs-20 {
+        font-size: 16px;
+      }
+    
+      .section_heading .fs-56 {
+        font-size: 30px;
+      }
+      .rti_item .fs-28 {
+        font-size: 14px;
+      }
+      .rti_tab_list .rti_tab_item {
+        font-size: 18px;
+      }
+      .rti_item .theme-btn-link {
+        font-size: 14px;
+      }
+    
+      .process_flow .fs-36 {
+        font-size: 20px;
+      }
+      .process_flow .fs-24 {
+        font-size: 16px;
+      }
+    
+      .blog_area .fs-28 {
+        font-size: 20px;
+      }
+      .blog_area .fs-20.blog_date {
+        font-size: 13px;
+      }
+      .blog_area .fs-20 {
+        font-size: 16px;
+      }
+      .blog_area .theme-btn-link {
+        font-size: 16px;
+      }
+    
+      .footer .fs-24 {
+        font-size: 16px;
+      }
+      .footer .fs-20 {
+        font-size: 16px;
+      }
+      .footer .theme-btn.fs-24 {
+        font-size: 16px;
+      }
+      .form-field {
+        font-size: 16px;
+      }
+
+      /* about us */
+      .about_area .fs-28 {
+        font-size: 20px;
+    }
+    .about_area .fs-24 {
+      font-size: 16px;
+    }
+    .about_mission .fs-24 {
+      font-size: 16px;
+    }
+    .vision_section .accordion_item .fs-28 {
+      font-size: 20px;
+    }
+    .vision_section .accordion_item .fs-24 {
+      font-size: 16px;
+    }
+    .team_post .fs-20 {
+      font-size: 14px;
+    }
+    .team_post .fs-28 {
+      font-size: 18px;
+    }
+    .team_post .fs-24 {
+      font-size: 16px;
+    }
+  }
